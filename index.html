@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Side toggle bar</title>
+</head>
+<body>
+    <div class="sidebar-menu" id="slide-items">
+        <nav>
+            <a href="#" onclick="closenav()" id="close">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Media</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+    <div classs="toggle-btn" id="open-button">
+      <a href="#" onclick="opennav()">  <img src="nav-image.png" alt="nav-bar-click-to show-menu" class="nav-img" /></a>    
+    </div>
+
+    <div class="stanza-word">
+        <p>Side nav using HTML, CSS, & JS</p>
+    </div>
+    <script src="index.js" ></script>
+</body>
+</html>
